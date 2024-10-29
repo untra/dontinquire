@@ -1,0 +1,30 @@
+{
+  "name": "@untra/dontinquire",
+  "version": "0.1.0",
+  "private": false,
+  "description": "an override replacement for @protobufjs/inquire",
+  "main": "index.cjs",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "scripts": {
+    "test": "node tests/inquire.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/untra/dontinquire.git"
+  },
+  "keywords": [
+    "protobufjs",
+    "inquire"
+  ],
+  "author": "untra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/untra/dontinquire/issues"
+  },
+  "homepage": "https://github.com/untra/dontinquire#readme"
+}
